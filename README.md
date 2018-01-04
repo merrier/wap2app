@@ -171,3 +171,9 @@ UniversalLink在跳转到app后，会在浏览器右上角有一个带有网页U
 官方给出的解释：
 
 > When a user is browsing your website in Safari and they tap a universal link to a URL in the same domain as the current webpage, iOS respects the user’s most likely intent and opens the link in Safari. If the user taps a universal link to a URL in a different domain, iOS opens the link in your app.
+
+### 扩展阅读
+
+下面这些关于调起的文章写得很不错，推荐阅读：
+
+* [唤醒 App 的那些事](http://www.siyuweb.com/javascript/2533.html)
