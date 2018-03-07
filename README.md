@@ -85,7 +85,7 @@ appDownload(params);
 根据ios版本分为两种情况：ios9及以上，ios9以下；同时由于QQ浏览器自身存在问题，所以也需要区别对待
 
 - <b>QQ浏览器</b>：历史总是惊人的相似，又是QQ浏览器，ios下的QQ浏览器跳转时会出现白屏，所以不采用universal link方式
-- <b>ios9及以上</b>：尝试用deeplink方式打开，如果有universal link，就用universal link打开
+- <b>ios9及以上</b>：尝试用universal link方式打开，如果有universal link，就用universal link打开
 - <b>ios9以下</b>：在iframe中调起scheme
 
 #### Android
@@ -178,3 +178,4 @@ UniversalLink在跳转到app后，会在浏览器右上角有一个带有网页U
 下面这些关于调起的文章写得很不错，推荐阅读：
 
 * [唤醒 App 的那些事](http://www.siyuweb.com/javascript/2533.html)
+* [Deep Linking：从浏览器调起 APP](http://harttle.land/2017/12/24/launch-app-from-browser.html)
